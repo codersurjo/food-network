@@ -236,15 +236,33 @@ a {
 
 /* footer area design  */
 
-.footer_area {}
+.footer_area {
+    background: #0B0D17;
+    overflow: hidden;
+    text-align: center;
+    padding: 82px 0;
+    padding-top: 58px;
+}
 
 .footer_all_con {}
 
-.footer_all_con h2 {}
+.footer_all_con h2 {
+    color: #5B5B5B;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
 
-.footer_all_con h2 span {}
+.footer_all_con h2 span {
+    color: #FBA24F;
+}
 
-.footer_all_con p {}
+.footer_all_con p {
+    color: #FFF;
+    font-size: 16px;
+}
 
 
 /* End Footer area design  */
