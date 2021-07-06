@@ -135,6 +135,8 @@ a {
 
 .about_right_content p {
     margin: 17px 0;
+    max-width: 445px;
+    width: 100%;
 }
 
 .about_right_content a {
@@ -208,5 +210,41 @@ a {
     padding-bottom: 14px;
 }
 
+.all_subscribe {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.single_sub {
+    text-align: center;
+}
+
+.single_sub h2 {
+    font-size: 34px;
+}
+
+.single_sub p {}
+
 
 /*End  My Recipies area design  */
+
+
+/* footer area design  */
+
+.footer_area {}
+
+.footer_all_con {}
+
+.footer_all_con h2 {}
+
+.footer_all_con h2 span {}
+
+.footer_all_con p {}
+
+
+/* End Footer area design  */
