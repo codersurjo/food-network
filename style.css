@@ -287,17 +287,56 @@ a.btn1 {
 
 /* Client Say area design  */
 
-.client_say_area {padding-bottom: 70px;}
+.client_say_area {
+    padding-bottom: 70px;
+}
 
-.client_all_com {display: flex;justify-content: space-between;}
+.client_all_com {
+    display: flex;
+    justify-content: space-between;
+}
 
-.single_com {flex: 0 0 31%;max-width: 31%;background: #FFFFFF;box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);border-radius: 18px;padding: 33px;box-sizing: border-box;text-align: center;}
+.single_com {
+    flex: 0 0 31%;
+    max-width: 31%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 18px;
+    padding: 33px;
+    box-sizing: border-box;
+    text-align: center;
+}
 
-.single_com p {font-size: 16px;margin-bottom: 25px;}
+.single_com p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
-.single_com h4 {font-size: 22px;color: #828282;}
+.single_com h4 {
+    font-size: 22px;
+    color: #828282;
+}
 
-.single_com h5 {margin-top: 5px;font-weight: 500;color: #4f4738;}
+.single_com h5 {
+    margin-top: 5px;
+    font-weight: 500;
+    color: #4f4738;
+}
+
+.client_img {
+    width: 77px;
+    height: 77px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 11px;
+}
+
+.client_img img {
+    width: 100%;
+    height: 108%;
+}
 
 
 /* End Client Say area design  */
