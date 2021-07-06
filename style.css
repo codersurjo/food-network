@@ -20,6 +20,31 @@ p {
     margin: 0 auto;
 }
 
+p {
+    font-size: 18px;
+    color: #828282;
+    line-height: 26px;
+}
+
+a {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 47px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    text-decoration: none;
+    color: #FFF;
+}
+
 
 /* Banner area design  */
 
@@ -53,29 +78,8 @@ p {
 
 .banner_left p {
     margin: 27px 0;
-    font-size: 19px;
-    color: #828282;
     max-width: 493px;
     line-height: normal;
-}
-
-.banner_left a {
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 192px;
-    height: 47px;
-    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
-    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
-    border-radius: 100px;
-    text-decoration: none;
-    color: #FFF;
 }
 
 .banner_left a:hover {
@@ -93,3 +97,49 @@ p {
 
 
 /* End banner area design  */
+
+
+/* About area design  */
+
+.about_area_design {
+    background: url(images/about_bg.png) no-repeat scroll 0 0 / 100% 100%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.about_all_con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_left_con {
+    flex: 0 0 45%;
+    max-width: 45%;
+    text-align: center;
+}
+
+.about_left_con img {
+    width: 59%;
+}
+
+.about_right_content {
+    flex: 0 0 47%;
+}
+
+.about_right_content h2 {
+    font-size: 35px;
+    color: #707070;
+    font-weight: 700;
+}
+
+.about_right_content p {
+    margin: 17px 0;
+}
+
+.about_right_content a {
+    margin-top: 46px;
+}
+
+
+/* End About Area design  */
